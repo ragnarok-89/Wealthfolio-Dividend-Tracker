@@ -4,9 +4,9 @@ A Wealthfolio addon for tracking and visualizing dividend income across accounts
 
 ## Features
 
-- **Zone 1: Dividends by Year** - Stacked bar chart and table showing total dividends by year across all accounts
-- **Zone 2: Dividends by Month** - Year-selectable stacked bar chart and table showing monthly dividend breakdown
-- **Zone 3: Dividends by Security** - Detailed table with collapsible account rows showing dividends per security
+- Dividends by Year - Stacked bar chart and table showing total dividends by year across all accounts
+- Dividends by Month - Year-selectable stacked bar chart and table showing monthly dividend breakdown
+- Dividends by Security - Detailed table with collapsible account rows showing dividends per month/security
 
 ## Development
 
