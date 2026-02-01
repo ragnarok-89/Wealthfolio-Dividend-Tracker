@@ -30,8 +30,12 @@ interface DividendsByMonthProps {
 const CHART_GRADIENTS = [
   { id: 'gradient-olive-month', start: '#8a9e6d', end: '#5a6d42' },  // Olive Green
   { id: 'gradient-blue-month', start: '#2e5c9e', end: '#1a3558' },   // Blue
-  { id: 'gradient-orange-month', start: '#ffa047', end: '#c77520' }, // Orange
+  { id: 'gradient-orange-month', start: '#FA8112', end: '#B45A0C' }, // Orange
   { id: 'gradient-darkgreen-month', start: '#3d6b1f', end: '#1e3510' }, // Dark Green
+  { id: 'gradient-red-month', start: '#A64650', end: '#8A244B' },   // Soft Red
+  { id: 'gradient-min-montht', start: '#44F5C3', end: '#2FA37F' },   // Mint
+  { id: 'gradient-purple-month', start: '#923BC2', end: '#5F247F' }, // Purple
+  { id: 'gradient-mauve-month', start: '#FA0123', end: '#B30019' },    // Mauve
 ];
 
 const MONTH_NAMES = [
