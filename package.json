@@ -11,7 +11,7 @@
     "dev": "vite build --watch",
     "dev:server": "wealthfolio dev",
     "clean": "powershell -Command \"if (Test-Path dist/*.zip) { Remove-Item dist/*.zip }\"",
-    "package": "powershell -Command \"Compress-Archive -Path manifest.json,dist,README.md -DestinationPath dist/wealthfolio-dividend-tracker-addon-1.0.0.zip -Force\"",
+    "package": "powershell -Command \"& 'C:\\Program Files\\7-Zip\\7z.exe' a -tzip dist/wealthfolio-dividend-tracker-addon-1.0.0.zip manifest.json dist/addon.js dist/addon.js.map README.md\"",
     "bundle": "pnpm build && pnpm clean && pnpm package",
     "lint": "tsc --noEmit",
     "type-check": "tsc --noEmit"
